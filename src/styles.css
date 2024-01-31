@@ -1,0 +1,34 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .carousel-container {
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 10px;
+    width: 600px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin: 0 auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
